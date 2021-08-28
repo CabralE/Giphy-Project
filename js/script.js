@@ -6,7 +6,6 @@ const search = "hi";
 const $img = $('#img');
 
 const promise = $.ajax({
-    //url: 'https://www.omdbapi.com/?apikey=8e20198b&t=Frozen'
     url: `http://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&limit=10&q=${search}`
 });
 
