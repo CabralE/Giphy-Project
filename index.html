@@ -7,11 +7,43 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script defer src="./js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <!--Fontawesome account to use one of their design on my Nav Bar -->
+    <script src="https://kit.fontawesome.com/5fe4bd99c0.js" crossorigin="anonymous"></script>
+    <!--Adding google fonts for my Nav Bar-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <title>Ed's Project One</title>
 </head>
 <body>
+    <!--Navigation Bar-->
+    <nav class="nav-bar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
+       <label class="logo">Ed's First Project</label> 
+            <ul>
+                <li><a href="https://www.linkedin.com/in/edward-cabral/" target="_blank">About me</a></li>
+                <li><a href="https://ringo.mycohort.download/" target="_blank">Assignment</a></li>
+                <li><a href="https://giphy.com/explore/images" target="_blank">GIPHY</a></li>
+                <li><a href="#" target="_blank">More</a></li>
+            </ul>
+
+    </nav>
+    <!--Search bar and submit button-->
+    <form class="input">
+        <input id="type" type="text" placeholder="Search GIFS" />
+        <input id="button" type="submit" value="Get Images" />
+    </form>
+    <!--Boxes for GIFS-->
     <main>
-        <img src="" id="img">
+        <img src="" id="imgOne" class="img">
+        <img src="" id="imgTwo" class="img">
+        <img src="" id="imgThree" class="img">
+        <img src="" id="imgFour" class="img">
     </main>
+    <!--To be done-->
+    <footer>
+
+    </footer>
 </body>
 </html>
