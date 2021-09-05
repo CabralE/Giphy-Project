@@ -25,7 +25,7 @@ In this project, I intended to generates gifs based on the user's search. First,
 
 Link to my live site
 ___________________________________________
-
+https://vercel.com/cabrale/seir-project-1
 
 Installation instructions
 ___________________________________________
@@ -39,6 +39,12 @@ Fontawesome account: fontawesome.com
 Unsolved problems
 ___________________________________________
 
+1. Gihphy's are not unique.
+2. NavBar is not sticky
+3. First four boxes are not Dynamic
+4. No footer
+5. API is not working on live site
+6. Refactoring to be done - Always needed!
 
 
 
