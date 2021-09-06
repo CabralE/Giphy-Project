@@ -45,6 +45,6 @@ ___________________________________________
 4. No footer
 5. API is not working on live site
 6. Refactoring to be done - Always needed!
-
+7. Does not inifite scroll on mobile if keyboard is present.
 
 
